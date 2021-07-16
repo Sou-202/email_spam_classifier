@@ -1,2 +1,4 @@
-# email_spam_classifier
-Spam classification using decision tree and support vector machine
+# Spam classification using decision tree and support vector machine 
+
+We study the spam classification using decision tree and support vector machine. We tested our results on a publically available dataset and we reported the accuracy and the confusion matrices of both classifiers. Our metric for a successfull classsife is "low false positive rate" (false positive means the classifer sees the email as spam whereas the email is legit). Our analysis indicates that false positive in the decision on the our data gives us 0.07 where false postive rate on SVM is 0.15. Hence we recomend utilizing decision tree in the final production. While our analysis here is limited in terms of the number of classifiers and the size of the dataset, decision tree classifeir perform well and can potentially be utilized in applications.
+
