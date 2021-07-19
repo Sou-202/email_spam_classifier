@@ -1,9 +1,7 @@
 # Spam classification using decision tree and support vector machine 
 
 
-
-
-## significance of the problem 
+## Significance of the problem 
 
 According to Dataprot(1) email spam costs businesses $20.5 billion every year. That is a serious problem - if we keep that in mind while we analyze our models, we will definitely go with the decision tree classifier as it has "low false positive rate".In other words, its True positive and True negative are higher or closer to 1 compared to other classifers.Therefore, it is relaiable model where its accurancy is high in preventing data breaching.
 
