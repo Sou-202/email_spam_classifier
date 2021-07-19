@@ -17,7 +17,8 @@ If our data is compromised we will not only lose comapny's tangible and untangib
 
 
 ## Summary of our solution
-We study the spam classification using decision tree and support vector machine. We tested our results on a publically available dataset and we reported the accuracy and the confusion matrices of both classifiers. Our metric for a successfull classsife is "low false positive rate" (false positive means the classifer sees the email as spam whereas the email is legit). Our analysis indicates that false positive in the decision on the our data gives us 0.07 where false postive rate on SVM is 0.15. Hence we recomend utilizing decision tree in the final production. While our analysis here is limited in terms of the number of classifiers and the size of the dataset, decision tree classifeir perform well and can potentially be utilized in applications.
+We study the spam classification using decision tree and support vector machine. We tested our results on a publically available dataset and we reported the accuracy and the confusion matrices of both classifiers. Our metric for a successful classifier is "low false positive rate" (false positive means the classifier sees the email as spam whereas the email is legit). Our analysis indicates that false positive in the decision on our data gives us 0.07 where false-positive rate on SVM is 0.15. Hence we recommend utilizing decision tree in the final production. While our analysis here is limited in terms of the number of classifiers and the size of the dataset, decision tree classifier perform well and can potentially be utilized in applications.
+
 
 ## Conclusion 
 
